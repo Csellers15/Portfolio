@@ -19,11 +19,9 @@
 					queue: false
 				}
 			});
-		 
 			$('.portfolioFilter a').click(function(){
 				$('.portfolioFilter .current').removeClass('current');
 				$(this).addClass('current');
-		 
 				var selector = $(this).attr('data-filter');
 				$container.isotope({
 					filter: selector,
@@ -32,8 +30,8 @@
 						easing: 'linear',
 						queue: false
 					}
-				 });
-				 return false;
+				});
+				return false;
 			}); 
 		}
 	
