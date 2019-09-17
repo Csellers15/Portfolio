@@ -42,7 +42,6 @@ p {
 	line-height: 1.6;
 	font-size: 1.05em;
 	font-weight: 400;
-	color: #777;
 }
 
 h1 {
@@ -208,7 +207,6 @@ INTRO SECTION
 	right: 0;
 	height: 150px;
 	z-index: -1;
-	background: #fff;
 }
 
 .intro {
@@ -268,14 +266,29 @@ INTRO SECTION
 	transform: scale(1);
 }
 
+/* 
+ Portfolio Section 
+*/
+
+.portfolio {
+	background: #fff;
+}
+
+
+#portfolio-header {
+	color: #FFAB00;
+}
+
+
+
+.about-section {
+	background-color: #28023D;
+	color: #fff;
+}
+
 /* ---------------------------------
 EXPERIENCE SECTION
 --------------------------------- */
-
-.experience-section {
-	background: #28023D;
-	color: #fff;
-}
 
 .experience .list>li {
 	display: block;
@@ -294,7 +307,7 @@ EXPERIENCE SECTION
 	margin-top: -5px;
 	display: block;
 	border-radius: 10px;
-	border: 2px solid #fff;
+	border: 2px solid;
 }
 
 
@@ -302,6 +315,10 @@ EXPERIENCE SECTION
 EDUCATION SECTION
 --------------------------------- */
 
+.education-section {
+	background-color: #28023D;
+	color: #fff;
+}
 .education-wrapper {
 	position: relative;
 }
