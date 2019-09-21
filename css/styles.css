@@ -159,6 +159,11 @@ COMMONS FOR PAGE DESIGN
 	margin-bottom: 50px;
 }
 
+.margin-tb {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
 .margin-tb-30 {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -270,6 +275,24 @@ INTRO SECTION
  Portfolio Section 
 */
 
+.portfolio-entry {
+	border:1px solid black;
+	padding: 0px;
+}
+
+.buffer{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-group .btn {
+    width: 50%;
+}
+
 .portfolio {
 	background: #fff;
 }
@@ -308,6 +331,10 @@ EXPERIENCE SECTION
 	display: block;
 	border-radius: 10px;
 	border: 2px solid;
+}
+
+.job-details-padding{
+	padding-left: 30px;
 }
 
 
