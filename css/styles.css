@@ -3,9 +3,13 @@ PRIMARY STYLES
 --------------------------------- */
 .image {
 	height: 180px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display:block;
+	margin: auto;
+}
+.portfolioImg {
+	width: 75%; 
+	height: 90%; 
+	padding-top: 10px;
 }
 
 html {
