@@ -343,7 +343,7 @@ EXPERIENCE SECTION
 	border: 2px solid;
 }
 
-.job-details-padding{
+.job-details-padding .skills-details-padding{
 	padding-left: 30px;
 }
 
@@ -387,3 +387,7 @@ EDUCATION SECTION
 	background: #FFAB00;
 }
 
+
+.skills-section {
+	background-color: #ccc;
+}
